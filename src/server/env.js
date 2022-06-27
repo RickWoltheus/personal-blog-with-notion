@@ -8,6 +8,7 @@ const { z } = require('zod');
 /*eslint sort-keys: "error"*/
 const envSchema = z.object({
   NODE_ENV: z.enum(['development', 'test', 'production']),
+  NOTION_BASE_URL: z.string(),
   NOTION_TOKEN: z.string(),
 });
 
