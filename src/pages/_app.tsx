@@ -9,6 +9,8 @@ import superjson from 'superjson';
 import { DefaultLayout } from '../components/DefaultLayout';
 import { AppRouter } from '../server/routers/_app';
 import { SSRContext } from '../utils/trpc';
+
+import '~/styles/globals.css'
 // core styles shared by all of react-notion-x (required)
 import 'react-notion-x/src/styles.css'
 
